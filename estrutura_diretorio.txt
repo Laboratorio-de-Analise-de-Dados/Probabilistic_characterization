@@ -1,0 +1,134 @@
+.
+├── .git
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               └── HEAD
+│   ├── objects
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-54a396ffe9cf562aa73976bf4c21dc58d0439810.idx
+│   │       └── pack-54a396ffe9cf562aa73976bf4c21dc58d0439810.pack
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       └── HEAD
+│       └── tags
+├── .gitignore
+├── LICENSE
+├── README.md
+├── VERSION
+├── commit_git.sh
+├── config
+│   ├── config.sh
+│   ├── delete_docker.sh
+│   ├── install-bashtop.sh
+│   ├── install-bat.sh
+│   ├── install-docker.sh
+│   ├── install-fdfind.sh
+│   ├── install-micro.sh
+│   ├── install-tree.sh
+│   └── install.sh
+├── docker
+│   ├── JupyterLab-configs
+│   │   ├── plugin.jupyterlab-settings
+│   │   ├── themes.jupyterlab-settings
+│   │   └── tracker.jupyterlab-settings
+│   ├── docker-compose-app.yml
+│   ├── python.Dockerfile
+│   ├── python_req.txt
+│   └── python_req_old.txt
+├── docker.md
+├── estrutura_diretorio.txt
+└── script
+    ├── graficos
+    │   ├── .ipynb_checkpoints
+    │   │   └── graph_2023-08-17-checkpoint.ipynb
+    │   ├── barras
+    │   │   ├── barras.ipynb
+    │   │   └── results
+    │   │       └── bars.png
+    │   ├── boxplot
+    │   │   ├── boxplot.ipynb
+    │   │   └── results
+    │   │       └── boxplot.png
+    │   ├── correlacao
+    │   │   ├── correlation_graphic.ipynb
+    │   │   ├── results
+    │   │   │   └── test_save.png
+    │   │   └── src
+    │   │       └── grafico_correlacao.py
+    │   ├── data
+    │   │   ├── iris.csv
+    │   │   └── monitoramento_tempo.csv
+    │   ├── graph_2023-08-17.ipynb
+    │   ├── histograma
+    │   │   ├── histograma.ipynb
+    │   │   └── results
+    │   │       ├── combinada.png
+    │   │       ├── histograma.png
+    │   │       ├── histograma_is.png
+    │   │       ├── histograma_iv.png
+    │   │       └── histograma_ivc.png
+    │   ├── pizza
+    │   │   ├── pizza.ipynb
+    │   │   └── results
+    │   │       └── pizza.png
+    │   ├── scatter
+    │   │   ├── results
+    │   │   │   ├── bars.png
+    │   │   │   └── scatter.png
+    │   │   └── scatter.ipynb
+    │   └── serie_temp
+    │       ├── results
+    │       │   ├── bars.png
+    │       │   ├── boxplot.png
+    │       │   ├── combinada.png
+    │       │   ├── histograma.png
+    │       │   ├── histograma_is.png
+    │       │   ├── histograma_iv.png
+    │       │   ├── histograma_ivc.png
+    │       │   ├── pizza.png
+    │       │   ├── scatter.png
+    │       │   └── time_series.png
+    │       └── serie_temp.ipynb
+    ├── start-nb
+    │   └── start-test.ipynb
+    └── start-py
+        ├── main.py
+        ├── py_test
+        │   ├── __init__.py
+        │   └── test_inicio.py
+        └── src
+            ├── __init__.py
+            └── inicio.py
+
+43 directories, 88 files

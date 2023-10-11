@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+    env-docker-artigo:
+        build: 
+            dockerfile: ./python.Dockerfile
+            context: .
+        container_name: env-docker-artigo
+        volumes:
+            - ./../script:/usr/src/myapp
+        networks:
+            - default
+        ports:
+            - 8080:8080
+
+volumes:
+    persistent:
