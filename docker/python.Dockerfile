@@ -20,5 +20,5 @@ COPY ./JupyterLab-configs/tracker.jupyterlab-settings /root/.jupyter/lab/user-se
 COPY ./JupyterLab-configs/themes.jupyterlab-settings /root/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings
 COPY ./JupyterLab-configs/plugin.jupyterlab-settings /root/.jupyter/lab/user-settings/@jupyterlab/docmanager-extension/plugin.jupyterlab-settings
 
-EXPOSE 8080
+EXPOSE 8888
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root"]
